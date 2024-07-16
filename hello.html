@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liyas MEET playlist</title>
+    <link rel="stylesheet" href="hello.js">
+    <style>
+        body {background-color: lightblue; }
+        #last_week {color: blue;}  
+        .song {font-family: serif;}
+    </style>
+    <script>
+    function changeBackgroundColor(color) {
+    document.body.style.backgroundColor = color;
+}
+    </script>
+</head>
+<body>
+    <h1 class="song">Y2 summer 2024 STUDENTS picked songs <3</h1>
+    <a href="https://en.wikipedia.org/wiki/Music">Get some background about music!</a><br>
+    <img src="https://i.pinimg.com/736x/5b/21/00/5b210023cb0e22e28a7357e146dcf9b9.jpg" alt="music" width="400px"><br>
+    <h2 id="last_week">First week picks:</h2>
+    <p class="song">Pick your favorite songs out of the above!</p>
+    <input type="radio" name="song" value="bob marley">Could you be loved by Bob<br>
+    <input type="radio" name="song" value="Olivia Rodrigo">Vampire by Olivia Rodrigo<br>
+    <input type="radio" name="song" value="Lana del rey">Video games by Lana del rey<br>
+    <button onclick= "changeBackgroundColor('blue')">Change BG Color</button>
+</body>
+</html>
